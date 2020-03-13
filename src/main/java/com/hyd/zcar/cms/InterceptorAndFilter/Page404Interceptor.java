@@ -1,13 +1,8 @@
-package com.hyd.zcar.cms.Interceptor;
+package com.hyd.zcar.cms.InterceptorAndFilter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.example.demo.DateUtil;
-import com.example.demo.Exception.NotFindException;
-import com.example.demo.RequestUti1;
 import com.hyd.zcar.cms.entity.ExceptionLog;
 import com.hyd.zcar.cms.service.ExceptionLogService;
 import lombok.extern.slf4j.Slf4j;
@@ -20,8 +15,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.UUID;
 
 /**
